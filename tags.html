@@ -6,25 +6,36 @@
   </head>
   <body>
 
+    <header>
     <h1>Important HTML tags</h1>
 
         <a href="https://www.flickr.com/photos/jdhancock/3814523970" rel="_blank" target="noopener">
         <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
-        <a/>
+      </a>
+    </header>
 
+      <div class="introduction">
         <p>
           This page is designed as a quick reference for some of the common tags
           covered in <a href="https://learnenough.com/html"><em>Learn
-          Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll
+          Enough HTML to Be Dangerous</a></em> In the process of making it, we'll
           learn how to make HTML <em>tables</em> via <code>table</code> and
           related tags.
         </p>
+      </div>
 
+      <div class="tables">
+
+      </div>
+
+      <div>
         <p>
           The tables below don't include all HTML tags, but they do list many of
           the most important ones.
         </p>
+      </div>
 
+      <div class="block_elements">
         <h2>Block Elements</h2>
 
         <table>
@@ -68,9 +79,21 @@
         <td>quote</td>
         <td>format a quote in a block</td>
       </tr>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>format a list with numbers</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>format a list with bullet points</td>
+      </tr>
         </table>
+      </div>
 
-        <h2>Inline Elements</h2>
+      <div>
+        <span><h2>Inline Elements</h2></span>
 
            <table>
              <tr>
@@ -87,8 +110,61 @@
                <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
                <td><em>technical sophistication</em></td>
              </tr>
-           </table>
-       .
+             <tr>
+          <td><code>strong</code></td>
+          <td>strong</td>
+          <td>make strong text</td>
+          <td>
+            <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
+          </td>
+          <td><strong>at least a billion people</strong></td>
+        </tr>
+        <tr>
+          <td><code>a</code></td>
+          <td>anchor</td>
+          <td>make hyperlink</td>
+          <td>
+            <code>
+              &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
+            </code>
+          </td>
+          <td><a href="https://learnenough.com/">Learn Enough</a></td>
+        </tr>
+        <tr>
+          <td><code>img</code></td>
+          <td>image</td>
+          <td>include an image</td>
+          <td>
+            <code>
+              &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+            </code>
+          </td>
+          <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
+        </tr>
+        <tr>
+          <td><code>code</code></td>
+          <td>code</td>
+          <td>format in typewriter font</td>
+          <td>
+            <code>
+              &lt; <code>this is code</code> &gt;
+            </code>
+          </td>
+          <td><code>This is code</code></td>
+        </tr>
+        <tr>
+          <td><code>li</code></td>
+          <td>li</td>
+          <td>format as list element</td>
+          <td>
+            <code>
+              &lt; <li>this is a list element</li> &gt;
+            </code>
+          </td>
+          <td><li>This is a list element</li></td>
+        </tr>
+      </table>
+    </div>
 
       </body>
     </html>
