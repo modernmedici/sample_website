@@ -1,6 +1,41 @@
 .nav-menu {
     text-align: right;
   }
+
 .nav-spacing {
-  margin-left: 10px; text-decoration-line: none; color: blue"
+  margin-left: 10px;
+}
+
+.image-link {
+  text-decoration-line: none; color: blue"
+}
+
+.table-row {
+  padding:20px
+}
+
+.big-header{
+  text-align: center;
+  margin: 0 0 80px;
+}
+.header-positioning {
+  text-align: center;
+}
+
+.box-style {
+  width: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fafafa;
+}
+
+.quote-style {
+  font-style: italic;
+  font-size: 20px;"
+}
+.text-emphasis {
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ccc"
 }
